@@ -1,0 +1,13 @@
+#blackbox {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+#Mouse {
+    position: absolute;
+    border: solid black;
+    width: 100px;
+    height: 100px;
+}

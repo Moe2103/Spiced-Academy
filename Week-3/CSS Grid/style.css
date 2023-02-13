@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: 200px 1fr 150px;
+    grid-template-rows: 100px 1fr 50px;
+}
+
+header {
+    background-color: lightblue;
+    grid-column: 1/-1;
+}
+
+.Menu {
+    background-color: aqua;
+}
+
+.ads {
+    background-color: crimson;
+}
+
+footer {
+    background-color: green;
+    grid-column: 1/-1;
+}

@@ -1,0 +1,2 @@
+GET, /, Wed Nov 30 2022 10:15:32 GMT+0100 (Mitteleuropäische Normalzeit), Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+GET, /, Wed Nov 30 2022 12:53:41 GMT+0100 (Mitteleuropäische Normalzeit), Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#ticker {
+    border-bottom: 1px solid black;
+}
+
+#headlines {
+    position: relative;
+    white-space: nowrap;
+}
+
+a {
+    padding: 0 10px;
+}

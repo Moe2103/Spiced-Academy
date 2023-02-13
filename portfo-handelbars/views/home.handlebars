@@ -1,0 +1,28 @@
+{{#if showImage}}
+
+    {{#projectslist}}
+        <div class="projects">
+            <a href="./projects/{{url}}">
+                <img src="{{name}}/screenshot.jpg" /></a>
+            <a href="./projects/{{url}}">{{name}}</a>
+        </div>
+
+    {{/projectslist}}
+{{else}}
+
+    {{#projectslist}}
+        <div class="projects">
+            <a href="./{{url}}">{{name}}</a>
+        </div>
+    {{/projectslist}}
+
+{{/if}}
+
+{{#selectedProject}}
+    <div id="selected">
+        <img src="/{{name}}/screenshot.jpg" />
+        <p id="url"> {{url}}</p>
+        <p id="desc"> {{descirption}}</p>
+        <a id="link" href="/{{url}}">Launch</a>
+    </div>
+{{/selectedProject}}

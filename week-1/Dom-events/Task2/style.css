@@ -1,0 +1,15 @@
+body {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    background-color: rgb(25, 25, 25);
+}
+
+textarea {
+    text-align: left;
+    border: 5px solid slateblue;
+    border-radius: 10px;
+    background: black;
+    color: whitesmoke;
+    font-size: large;
+}
